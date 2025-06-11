@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Cocktail - NextJS 15
+</div>
 
-First, run the development server:
+<p align="center">
+<a href="https://www.youtube.com/c/faisonslepoint" target="_blank" style="font-size:22px">FaisonsLePoint</a>
+<br><br>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/NextJS-v15.3.2-blue">
+    <img src="https://img.shields.io/badge/React-19.0.0-blue">
+    <img src="https://img.shields.io/badge/license-MIT-green">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen">
+    <img src="https://img.shields.io/badge/node--lts-22.16.0-brightgreen">
+    <img src="https://img.shields.io/badge/npm-10.9.2-blue">
+    <img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UC0WQ4H6f2W14eS45bRDfp1Q?style=social">
+  <br><br><br>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# A propos
+Ce projet est l'applicatif Cocktail. Il s'agit d'un exercice de réalisation de projet.
+
+Projet lancer avec [Create Next App](https://nextjs.org/docs/app/getting-started/installation).
+
+## Fonctionnalitées
+- Applicatif en 2 parties. Une partie publique et une privée pour la gestion des données
+- Manipulation des données 
+- Utilisation du Json Web Token pour les sessions
+
+# Vidéos
+
+La réalisation de cet applicatif est entièrement disponible en vidéo sur la chaine
+[FaisonLePoint - Playlist NextJS 15](https://www.youtube.com/watch?v=D_Olh9Pmb2o&list=PLwJWw4Pbl4w8Bsoe35b0MwamEvtY355pf)
+
+# Installation
+Une fois le dépôt cloné et une fois rendu dans le dossier du projet ne pas oublier d'installer les dépendances
+``` 
+npm install 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Lancement
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Ce projet démarre en mode développement avec la commande :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+npm run dev
+```
 
-## Learn More
+Ce projet utilise Docker pour lancer une base de données en local:
 
-To learn more about Next.js, take a look at the following resources:
+```
+docker compose up
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Pour construire et générer les fichier html css et js, vous avez la commande (la génération se fera dans le dossier build)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+npm run build
+```
