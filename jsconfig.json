@@ -3,7 +3,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@compopub/*": ["./src/components/public/*"],
-      "@styles/*" : ["./src/styles/*"]
+      "@styles/*" : ["./src/styles/*"],
+      "@models/*": ["./src/models/*"]
     }
   }
 }

@@ -39,6 +39,13 @@ Une fois le dépôt cloné et une fois rendu dans le dossier du projet ne pas ou
 npm install 
 ```
 
+## Pré-requis
+N'oublie que le projet utilise des variables d'environnement
+Elles se trouvent de le fichier .env.local
+
+Avant tout vous devez renomer le fichier .env.example => .env.local
+Puis vous y a ajoutez vos informations
+
 ## Lancement
 
 Ce projet démarre en mode développement avec la commande :
