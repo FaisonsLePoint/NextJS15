@@ -1,0 +1,21 @@
+.sidemenu{
+    width:15%;
+    padding: 5px;
+    border-right: solid 1px gray;
+}
+
+.sidemenu ul{
+    list-style: none;
+}
+
+.sidemenu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.section{
+    padding-top:20px;
+}
+.section ul{
+    padding-left:20px;
+}
