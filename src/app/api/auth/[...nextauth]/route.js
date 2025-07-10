@@ -13,10 +13,17 @@ export const authOptions = {
                 console.log("AUTHORIZE CREDENTIALS")
                 console.log(credentials)
 
+                if(credentials.email == "roger"){
+                    return {'name':'roger'}
+                }
+
                 return null
             }
         })
-    ]
+    ],
+    pages:{
+        signIn: '/login'
+    }
 }
 
 const handler = NextAuth(authOptions)

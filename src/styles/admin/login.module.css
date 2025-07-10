@@ -1,0 +1,46 @@
+.login{
+    text-align:center;
+    padding: 80px 30px 30px 30px;
+}
+
+.login >h1{
+    font-size: 50px;
+}
+
+.form{
+    width:280px;
+    margin: 0 auto;
+    margin-top:150px;
+}
+
+.form >.group{
+    margin-bottom:25px;
+}
+.form label{
+    display:block;
+    text-align: left;
+    font-size: 20px;
+}
+
+.form input{
+    max-width:280px;
+    width:280px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius:8px;
+}
+.form button{
+    width:100%;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: rgb(79, 79, 228);
+    color: white;
+}
+
+.error{
+    color:red;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
