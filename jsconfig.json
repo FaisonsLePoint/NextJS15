@@ -5,7 +5,8 @@
       "@compopub/*": ["./src/components/public/*"],
       "@compoadmin/*": ["./src/components/admin/*"],
       "@styles/*" : ["./src/styles/*"],
-      "@models/*": ["./src/models/*"]
+      "@models/*": ["./src/models/*"],
+      "@lib/*": ["./src/lib/*"]
     }
   }
 }

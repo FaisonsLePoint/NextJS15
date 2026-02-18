@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import db from '@models/index'
+import start from '@lib/first_start.js'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,6 +22,7 @@ export const metadata = {
 export default async function RootLayout({ children }) {
   try{
     await db.sequelize.authenticate()
+    await start()
   }catch(e){
     console.error("PAS DE BDD")
   }
