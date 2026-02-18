@@ -6,7 +6,9 @@
       "@compoadmin/*": ["./src/components/admin/*"],
       "@styles/*" : ["./src/styles/*"],
       "@models/*": ["./src/models/*"],
-      "@lib/*": ["./src/lib/*"]
+      "@lib/*": ["./src/lib/*"],
+      "@services/*": ["./src/_services/*"],
+      "@utils/*": ["./src/utils/*"]
     }
   }
 }
